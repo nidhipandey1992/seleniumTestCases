@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.siebel.mcrmapp.testsuite.GeneralAdministrationTest">
+        <methods>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="beforeTest"/>
+          <include name="loginUserWithoutResposnibility"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.siebel.mcrmapp.testsuite.GeneralAdministrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
